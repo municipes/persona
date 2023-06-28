@@ -1,0 +1,20 @@
+name: "Persona"
+description: "Persona è un modulo Drupal che gestisce il tipo di contenuto Persona."
+package: "Municipes"
+
+type: module
+core_version_requirement: ^10
+dependencies:
+  - drupal:views
+  - drupal:media_library
+  - drupal:path
+  - drupal:text
+  - field_group:field_group
+  - focal_point:focal_point
+  - auto_entitylabel:auto_entitylabel
+  - imce:imce
+  - inline_entity_form:inline_entity_form
+  - ui_patterns_field_formatters:ui_patterns_field_formatters
+  - viewsreference:viewsreference
+  - municipes:lexicum
+  - municipes:fundamentum

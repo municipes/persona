@@ -13,8 +13,8 @@ il content type che importa questo modulo è il [CT persona](https://docs.google
 ## Requisiti
 - Drupal: >= 10
 - Profilo Drupal: `minimal`
-- Moduli contrib: `field_group`, `focal_point`, `imce`
-- Moduli Municipes: `fundamentum`
+- Moduli contrib: `field_group`, `focal_point`, `imce`, `auto_entitylabel`, `media_library`, `inline_entity_form`, `ui_patterns_field_formatters`, `viewsreference`
+- Moduli Municipes: `lexicum`, `fundamentum`, `domicilium`
 
 ## Installazione
 Per aggiungere il modulo alla tua installazione esegui:

@@ -7,7 +7,7 @@
 
 [Persona] è un modulo Drupal che gestisce l'entità Persona.
 L'architettura dei campi è basata sulla [v2.0](https://docs.google.com/spreadsheets/d/1D4KbaA__xO9x_iBm08KvZASjrrFLYLKX/edit#gid=1529184526)
-dell'architettura dell'informazione dei siti web delle scuole,
+dell'architettura dell'informazione dei siti web dei comuni,
 il content type che importa questo modulo è il [CT persona](https://docs.google.com/spreadsheets/d/1D4KbaA__xO9x_iBm08KvZASjrrFLYLKX/edit#gid=1949729705)
 
 ## Requisiti

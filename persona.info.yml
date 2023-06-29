@@ -18,3 +18,4 @@ dependencies:
   - viewsreference:viewsreference
   - municipes:lexicum
   - municipes:fundamentum
+  - municipes:domicilium

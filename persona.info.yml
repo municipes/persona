@@ -1,5 +1,5 @@
 name: "Persona"
-description: "Persona è un modulo Drupal che gestisce il tipo di contenuto Persona."
+description: "Persona è un modulo Drupal che gestisce il tipo di contenuto Persona e Punto di contatto."
 package: "Municipes"
 
 type: module
@@ -9,13 +9,15 @@ dependencies:
   - drupal:media_library
   - drupal:path
   - drupal:text
+  - drupal:menu_ui
   - field_group:field_group
   - focal_point:focal_point
   - auto_entitylabel:auto_entitylabel
   - imce:imce
   - inline_entity_form:inline_entity_form
+  - type_tray:type_tray
   - ui_patterns_field_formatters:ui_patterns_field_formatters
   - viewsreference:viewsreference
   - municipes:lexicum
   - municipes:fundamentum
-  - municipes:domicilium
+

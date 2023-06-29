@@ -5,10 +5,11 @@
 ![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/municipes/persona/drupal/core-recommended?style=for-the-badge)
 ![Packagist Downloads](https://img.shields.io/packagist/dt/municipes/persona?style=for-the-badge)
 
-[Persona] è un modulo Drupal che gestisce l'entità Persona.
+[Persona] è un modulo Drupal che gestisce l'entità Persona e Punto di contatto.
 L'architettura dei campi è basata sulla [v2.0](https://docs.google.com/spreadsheets/d/1D4KbaA__xO9x_iBm08KvZASjrrFLYLKX/edit#gid=1529184526)
 dell'architettura dell'informazione dei siti web dei comuni,
 il content type che importa questo modulo è il [CT persona](https://docs.google.com/spreadsheets/d/1D4KbaA__xO9x_iBm08KvZASjrrFLYLKX/edit#gid=1949729705)
+ed il content type che importa questo modulo è il [CT Punto di contatto](https://docs.google.com/spreadsheets/d/1D4KbaA__xO9x_iBm08KvZASjrrFLYLKX/edit#gid=611785316)
 
 ## Requisiti
 - Drupal: >= 10

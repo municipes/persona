@@ -1,6 +1,6 @@
 {
     "name": "municipes/persona",
-    "description": "Persona è un modulo Drupal che gestisce il tipo di contenuto Persona.",
+    "description": "Persona è un modulo Drupal che gestisce il tipo di contenuto Persona e Punto di contatto.",
     "type": "drupal-module",
     "license": "GPL-3.0-only",
     "homepage": "https://github.com/municipes/persona",
@@ -23,7 +23,6 @@
         "drupal/field_group": "^3",
         "drupal/focal_point": "^2.0",
         "municipes/lexicum": "^1",
-        "municipes/fundamentum": "^1",
-        "municipes/domicilium": "^1"
+        "municipes/fundamentum": "^1"
     }
 }

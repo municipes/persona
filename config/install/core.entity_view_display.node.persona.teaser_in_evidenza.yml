@@ -1,7 +1,8 @@
 langcode: it
-status: true
+status: false
 dependencies:
   config:
+    - core.entity_view_mode.node.teaser_in_evidenza
     - field.field.node.persona.field_altre_cariche
     - field.field.node.persona.field_biografia
     - field.field.node.persona.field_cognome
@@ -26,18 +27,17 @@ dependencies:
     - media
     - text
     - user
-    - viewsreference
-id: node.persona.default
+id: node.persona.teaser_in_evidenza
 targetEntityType: node
 bundle: persona
-mode: default
+mode: teaser_in_evidenza
 content:
   field_competenze:
     type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    weight: 1
     region: content
   field_immagine:
     type: media_thumbnail
@@ -48,24 +48,7 @@ content:
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 1
-    region: content
-  field_punti_di_contatto:
-    type: entity_reference_label
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 4
-    region: content
-  field_view_reference:
-    type: viewsreference_formatter
-    label: above
-    settings:
-      plugin_types:
-        - block
-    third_party_settings: {  }
-    weight: 5
+    weight: 2
     region: content
   links:
     settings: {  }
@@ -82,11 +65,13 @@ hidden:
   field_galleria_immagini: true
   field_incarichi: true
   field_nome: true
+  field_punti_di_contatto: true
   field_sezione_amministrazione: true
   field_situazione_patrimoniale: true
   field_spese_elettorali: true
   field_ulteriori_informazioni: true
   field_v_situazione_patrimoniale: true
+  field_view_reference: true
   langcode: true
   node_read_time: true
   search_api_excerpt: true

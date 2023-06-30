@@ -5,8 +5,6 @@ dependencies:
     - field.storage.node.field_altre_cariche
     - media.type.document
     - node.type.persona
-_core:
-  default_config_hash: NYki0bzk9oyAh2ulIje-NJToQMGkt0EXtJXGVJoTGxs
 id: node.persona.field_altre_cariche
 field_name: field_altre_cariche
 entity_type: node

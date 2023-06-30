@@ -19,8 +19,8 @@ dependencies:
     - field.field.node.persona.field_situazione_patrimoniale
     - field.field.node.persona.field_spese_elettorali
     - field.field.node.persona.field_ulteriori_informazioni
-    - field.field.node.persona.field_unita_organizzative
     - field.field.node.persona.field_v_situazione_patrimoniale
+    - field.field.node.persona.field_view_reference
     - node.type.persona
   module:
     - user
@@ -46,8 +46,8 @@ hidden:
   field_situazione_patrimoniale: true
   field_spese_elettorali: true
   field_ulteriori_informazioni: true
-  field_unita_organizzative: true
   field_v_situazione_patrimoniale: true
+  field_view_reference: true
   langcode: true
   links: true
   node_read_time: true

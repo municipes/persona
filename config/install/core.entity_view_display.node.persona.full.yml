@@ -19,8 +19,8 @@ dependencies:
     - field.field.node.persona.field_situazione_patrimoniale
     - field.field.node.persona.field_spese_elettorali
     - field.field.node.persona.field_ulteriori_informazioni
-    - field.field.node.persona.field_unita_organizzative
     - field.field.node.persona.field_v_situazione_patrimoniale
+    - field.field.node.persona.field_view_reference
     - node.type.persona
   module:
     - text
@@ -194,14 +194,6 @@ content:
     third_party_settings: {  }
     weight: 11
     region: content
-  field_unita_organizzative:
-    type: entity_reference_label
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 13
-    region: content
   field_v_situazione_patrimoniale:
     type: entity_reference_label
     label: hidden
@@ -210,10 +202,19 @@ content:
     third_party_settings: {  }
     weight: 8
     region: content
+  field_view_reference:
+    type: viewsreference_formatter
+    label: above
+    settings:
+      plugin_types:
+        - block
+    third_party_settings: {  }
+    weight: 14
+    region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 14
+    weight: 15
     region: content
 hidden:
   field_cognome: true

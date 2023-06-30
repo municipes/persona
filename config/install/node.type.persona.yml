@@ -15,10 +15,11 @@ third_party_settings:
     type_description: ''
     existing_nodes_link_text: 'View existing <em class="placeholder">Persona pubblica di un Comune</em> content'
     type_weight: 0
-name: 'Persona pubblica di un Comune'
+name: 'Persona pubblica'
 type: persona
 description: 'Questa Tipologia descrive la struttura delle persone pubbliche che sono salienti per il dominio (sito di un comune), funzionale alla creazione di una scheda persona.'
 help: 'Questa Tipologia descrive la struttura delle persone pubbliche che sono salienti per il dominio (sito di un comune), funzionale alla creazione di una scheda persona.'
 new_revision: false
 preview_mode: 1
 display_submitted: false
+

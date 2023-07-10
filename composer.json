@@ -22,6 +22,7 @@
         "drupal/core-recommended": "^10",
         "drupal/field_group": "^3",
         "drupal/focal_point": "^2.0",
+        "drupal/inline_entity_form": "^1.0@RC",
         "municipes/lexicum": "^1",
         "municipes/fundamentum": "^1"
     }
